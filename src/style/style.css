@@ -7,6 +7,7 @@
 
 html {
   font-size: 65.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -61,6 +62,9 @@ button:hover {
 .main-head {
   background-color: #131c27;
   color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 nav {
   min-height: 10vh;
