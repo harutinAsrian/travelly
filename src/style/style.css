@@ -57,6 +57,10 @@ button:hover {
   background-color: #38516e;
 }
 
+.anchor {
+  padding-top: 8rem;
+}
+
 /* Nav Section With HERO */
 
 .main-head {
@@ -85,8 +89,13 @@ nav ul {
   font-family: "Pattaya", sans-serif;
   font-weight: 400;
 }
+.home {
+  display: inline-block;
+  margin: 0 auto;
+  flex: 1 1 40rem;
+}
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent),
     url("../assets/img/landing-page.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -307,8 +316,19 @@ footer h5 {
     padding: 1rem 0 2rem;
     flex: 2 1 100%;
   }
+  .benefits {
+    padding-top: 12rem; 
+    margin-top: -12rem;
+  }
   .form-wrapper {
     width: 90%;
+  }
+  .form-wrapper label {
+    display: inline-block;
+    margin-bottom: 2rem;
+  }
+  .form-wrapper button {
+    margin-top: 6rem;
   }
   footer h5 {
     text-align: center;
@@ -319,4 +339,5 @@ footer h5 {
   .footer-wrapper ul {
     flex-basis: 40rem;
   }
+  
 }
